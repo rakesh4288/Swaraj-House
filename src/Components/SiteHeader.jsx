@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import reactLogo from '../assets/react.svg';
+import AppImages from '../assets';
 
 const SiteHeader = () => {
   const swaraj_navigate = useNavigate();
@@ -17,10 +17,12 @@ const SiteHeader = () => {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top navBg">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/home">
-            <b>
-              <span className="logoOrange">स्व</span><span className="logoWhite">रा</span><span className="logoGreen">ज</span>
-            </b>
-            <span><img src={reactLogo} className="App-logo" alt="React logo" /></span>
+            <span style={{paddingRight: '10px'}}>
+              <b>
+                <span className="logoOrange">स्व</span><span className="logoWhite">रा</span><span className="logoGreen">ज</span>
+              </b>
+            </span>
+            <img src={AppImages.React_Logo} className="AppLogo" alt="React logo" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,12 +61,13 @@ const SiteHeader = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><Link className="dropdown-item" to="/interview-page-1">Interviw Page 1</Link></li>
                   <li><Link className="dropdown-item" to="/interview-page-2">Interviw Page 2</Link></li>
+                  <li><Link className="dropdown-item" to="/to-do-practice-page">To Do Practice</Link></li>
                 </ul>
               </li>
 
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  User Profile
+                  <i className="bi bi-person-circle"></i> User Profile
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><Link className="dropdown-item" to="/user-profile">My Profile</Link></li>

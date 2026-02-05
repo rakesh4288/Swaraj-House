@@ -1,11 +1,14 @@
-import LoginPage from "./Components/LoginPage";
-import LogoutPage from "./Components/LogoutPage";
-import ProtectedRoutes from "./Components/ProtectedRoutes";
-import SiteHeader from "./Components/SiteHeader";
-import SiteFooter from "./Components/SiteFooter";
-import UserProfile from "./Components/userProfile";
+import LoginPage from "./pages/LoginPage";
+import LogoutPage from "./pages/LogoutPage";
+import ProtectedRoutes from "./components/ProtectedRoutes";
+import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
+import UserProfile from "./pages/UserProfile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./Components/HomePage";
+import HomePage from "./pages/HomePage";
+import GraphQLPage from "./pages/GraphQLPage";
+import React19Features from "./components/React19Features";
+import ToDoPracticePage from "./pages/ToDoPracticePage";
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
           <div className="swarajMainBody">
             <Routes>
               <Route element={<ProtectedRoutes />}>
-                <Route path="/user-profile" element={<UserProfile />} />
                 <Route path="/home" element={<HomePage />} />
+                <Route path="/what-is-graphql" element={<GraphQLPage />} />
+                <Route path="/user-profile" element={<UserProfile />} />
+                <Route path="/react-19-features" element={<React19Features />}/>
+                <Route path="/to-do-practice-page" element={<ToDoPracticePage />}/>
               </Route>
 
               <Route path="/" element={<LoginPage />} />
