@@ -47,7 +47,7 @@ const SiteHeader = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/api-integration">API Integration</Link>
+                <Link className="nav-link" to="/api-integration-in-react">API Integration</Link>
               </li>
 
               <li className="nav-item">
@@ -59,7 +59,7 @@ const SiteHeader = () => {
                   Interview Pages
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link className="dropdown-item" to="/interview-page-1">Interviw Page 1</Link></li>
+                  <li><Link className="dropdown-item" to="/interview-preparation-1">Interviw Page 1</Link></li>
                   <li><Link className="dropdown-item" to="/interview-page-2">Interviw Page 2</Link></li>
                   <li><Link className="dropdown-item" to="/to-do-practice-page">To Do Practice</Link></li>
                 </ul>

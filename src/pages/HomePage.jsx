@@ -64,15 +64,24 @@ const HomePage = () => {
         </div>
       </section>
 
+      <section className="container">
+        <div className="alert alert-warning">
+          <h6>https://github.com/rakesh4288/Swaraj-House</h6>
+        </div>
+      </section>
+
       <section id="how-to-optimize-react">
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <div className="alert alert-warning">
-                <h6>https://github.com/rakesh4288/Swaraj-House</h6>
-              </div>
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <h5>How to optimize the React App ?  Best Learning Video !!</h5>
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/CaShN6mCJB0?si=dGgjn5ixlUfyqxyK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+          </div>
 
-              <h5>How to optimize the React App ?</h5>
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <h5>Here is some Key points: </h5>
               <p>Here are some key points By which we can improve the React application performance:</p>
 
               <div className="row g-3">
@@ -167,10 +176,6 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <iframe width="100%" height="315" src="https://www.youtube.com/embed/CaShN6mCJB0?si=dGgjn5ixlUfyqxyK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
         </div>
