@@ -39,7 +39,16 @@ const SiteHeader = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/react-redux">Redux</Link>
+                <Link className="nav-link" to="/react-redux-tutorial"></Link>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Redux Tutorial
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><Link className="dropdown-item" to="/react-redux-tutorial">Know about React Redux </Link></li>
+                </ul>
               </li>
 
               <li className="nav-item">
@@ -48,6 +57,17 @@ const SiteHeader = () => {
 
               <li className="nav-item">
                 <Link className="nav-link" to="/api-integration-in-react">API Integration</Link>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  React Hooks
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><Link className="dropdown-item" to="/interview-preparation-1">Interviw Page 1</Link></li>
+                  <li><Link className="dropdown-item" to="/interview-page-2">Interviw Page 2</Link></li>
+                  <li><Link className="dropdown-item" to="/to-do-practice-page">To Do Practice</Link></li>
+                </ul>
               </li>
 
               <li className="nav-item">

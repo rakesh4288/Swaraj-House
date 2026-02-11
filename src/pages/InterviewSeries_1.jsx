@@ -267,11 +267,11 @@ const InterviewSeries_1 = () => {
 
             <hr className="bg-success"/>
 
-            <section id="dependencies-vs-Devdependencies">
+            <section id="dependencies-vs-Devdependencies" className="lightBlue pt-4">
                 <div className="container">
                     <div className="row">
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
-                            <h3>Difference between dependencies vs dev dependencies ?</h3>
+                            <h4>Difference between dependencies vs dev dependencies ?</h4>
                             <p>
                                 Every node js project is having a file called package.json, which serves as a central repository for an important project metadata. <br/> This file holds the information such as dependencies and dev dependencies.
                             </p>
@@ -317,7 +317,90 @@ const InterviewSeries_1 = () => {
                 </div>
             </section>
 
-            <hr className="bg-success"/>
+            <hr className="bg-danger"/>
+
+            <section id="caret-vs-tilde" className="pt-3 mb-4">
+                <div className="container">
+                    <div className="row">
+                        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12'>
+                            <h5>What is difference between symbols ^ caret and ~ tilde in Package.json file ?</h5>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
+                            <div className="border p-2">
+                                <h6>Caret (^) — Compatible updates (most commonly used)</h6>
+                                <p>Allows updates that do NOT change the left-most non-zero number (major version).</p>
+                                <p className="lightBlue p-1">
+                                    <b>"react": "^18.2.0"</b>
+                                </p>
+
+                                <p> 
+                                    Allowed versions:
+                                    <ul>
+                                        <li>18.2.1</li>
+                                        <li>18.5.0</li>
+                                        <li>18.9.9</li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    Not allowed:
+                                    <ul>
+                                        <li>19.0.0</li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    Rule:
+                                   <ul>
+                                        <li> ^MAJOR.MINOR.PATCH</li>
+                                        <li>→ Can update MINOR and PATCH</li>
+                                        <li>→ Cannot update MAJOR</li>
+                                   </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
+                            <div className="border p-2">
+                                <h6>Tilde (~) — Patch-level updates only</h6>
+                                <p>Allows updates only within the same minor version.</p>
+                                <p className="lightBlue p-1">
+                                    <b> "react": "~18.2.0" </b>
+                                </p>
+                                <p>
+                                    Allowed versions:
+                                    <ul>
+                                        <li>18.2.1</li>
+                                        <li>18.2.5</li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    Not allowed:
+                                    <ul>
+                                        <li>18.3.0</li>
+                                        <li>19.0.0</li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    Rule:
+                                    <ul>
+                                        <li>~MAJOR.MINOR.PATCH</li>
+                                        <li>→ Can update PATCH only</li>
+                                        <li> → MINOR & MAJOR are locked</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr className="bg-danger"/>
 
             <section id="derived-state" className="pt-3 mb-4">
                 <div className="container">
