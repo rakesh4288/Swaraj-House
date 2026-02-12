@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import MpBoard12Result from '../components/MpBoard12Result';
 
 const ApiIntegrationPage = () => {
     return (
@@ -44,6 +45,12 @@ const ApiIntegrationPage = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className='lightBlue pt-4 pb-4'>
+                <div className='container'>
+                    <MpBoard12Result />
                 </div>
             </section>
         </div>
