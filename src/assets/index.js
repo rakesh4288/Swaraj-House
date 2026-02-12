@@ -16,6 +16,7 @@ import Derived_States from './Derived_States_1.png';
 import Redux_Store_1 from './redux_store.png';
 import Redux_Store_2 from './redux_provider_confirgure.png';
 import Redux_Store_3 from'./use_selector.png';
+import Redux_Store_4 from './propDrilling_useContext_ReactRedux.png'; 
 
 const AppImages = {
     React_Logo: react_logo,
@@ -35,7 +36,8 @@ const AppImages = {
     Derived_States_Img: Derived_States,
     Redux_Store_img_1: Redux_Store_1,
     Redux_Store_img_2: Redux_Store_2,
-    Redux_Store_img_3: Redux_Store_3
+    Redux_Store_img_3: Redux_Store_3,
+    Redux_Store_img_4: Redux_Store_4
 }
 
 export default AppImages;
