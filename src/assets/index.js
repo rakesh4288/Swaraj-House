@@ -17,6 +17,8 @@ import Redux_Store_1 from './redux_store.png';
 import Redux_Store_2 from './redux_provider_confirgure.png';
 import Redux_Store_3 from'./use_selector.png';
 import Redux_Store_4 from './propDrilling_useContext_ReactRedux.png'; 
+import Micro_Frontend_1 from './Micro_Frontend_1.jpeg';
+import Micro_Frontend_2 from './Micro_Frontend_2.png';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -37,7 +39,9 @@ const AppImages = {
     Redux_Store_img_1: Redux_Store_1,
     Redux_Store_img_2: Redux_Store_2,
     Redux_Store_img_3: Redux_Store_3,
-    Redux_Store_img_4: Redux_Store_4
+    Redux_Store_img_4: Redux_Store_4,
+    Micro_Frontend_1_img: Micro_Frontend_1,
+    Micro_Frontend_2_img: Micro_Frontend_2
 }
 
 export default AppImages;

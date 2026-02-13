@@ -1,4 +1,4 @@
-import AppImages from "../assets";
+import AppImages from "../Assets";
 
 const GraphQLPage = () => {
     return (
@@ -7,7 +7,7 @@ const GraphQLPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                            <h4 className="pageHeading"> Learning GraphQL </h4>
+                            <h4 className="pageHeading"> Learning GraphQL <i className="bi bi-bar-chart-line"></i> </h4>
                         </div>
                     </div>
                 </div>

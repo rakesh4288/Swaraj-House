@@ -132,6 +132,10 @@ h6 {
   background-color: #e5f6ff;
 }
 
+.lightGreen {
+  background: #f4f9f3;
+}
+
 /* Gradient Links Styling */
 .gradient-link {
   position: relative;

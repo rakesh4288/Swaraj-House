@@ -13,6 +13,7 @@ import InterviewSeries_1 from "./pages/InterviewSeries_1";
 import ApiIntegrationPage from "./pages/ApiIntegrationPage";
 import HttpGetPage from "./pages/HttpGetPage";
 import ReactReduxPage from "./pages/ReactReduxPage";
+import MircoFrontEndPage from "./pages/MircoFrontEndPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/api-integration-in-react" element={<ApiIntegrationPage />} />
                 <Route path="/http-get-method-in-react" element={<HttpGetPage />}/>
                 <Route path="/react-redux-tutorial" element={<ReactReduxPage />}/>
+                <Route path="/what-is-micro-front-end-architecture-in-react" element={<MircoFrontEndPage />}/>
               </Route>
 
               <Route path="/" element={<LoginPage />} />
