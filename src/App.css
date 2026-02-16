@@ -5,15 +5,10 @@ body {
 }
 
 /* Site Header CSS Start here */
-.navbar { padding: 5px 0 !important;}
+.navbar { padding: 0 !important;}
 .navbar-brand { margin-right: 0;}
 
 .navbar-dark .navbar-brand { color: #ff9909 !important;}
-
-.navbar {
-  padding-top: .2rem;
-  padding-bottom: .2rem;
-}
 
 .navBg {
   background: rgb(2, 0, 36);
