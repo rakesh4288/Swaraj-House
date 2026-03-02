@@ -15,6 +15,7 @@ import HttpGetPage from "./pages/HttpGetPage";
 import ReactReduxPage from "./pages/ReactReduxPage";
 import MircoFrontEndPage from "./pages/MircoFrontEndPage";
 import ReactFormsPage from "./pages/ReactFormsPage";
+import UseReducerHookPage from "./pages/UseReducerHookPage";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/react-redux-tutorial" element={<ReactReduxPage />}/>
                 <Route path="/what-is-micro-front-end-architecture-in-react" element={<MircoFrontEndPage />}/>
                 <Route path="/react-forms" element={<ReactFormsPage />} />
+                <Route path="/use-reducer-hook" element={<UseReducerHookPage />}/>
               </Route>
 
               <Route path="/" element={<LoginPage />} />

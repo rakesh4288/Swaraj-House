@@ -64,9 +64,7 @@ const SiteHeader = () => {
                   React Hooks
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link className="dropdown-item" to="/interview-preparation-1">Interviw Page 1</Link></li>
-                  <li><Link className="dropdown-item" to="/interview-page-2">Interviw Page 2</Link></li>
-                  <li><Link className="dropdown-item" to="/to-do-practice-page">To Do Practice</Link></li>
+                  <li><Link className="dropdown-item" to="/use-reducer-hook">Use Reducer Hook</Link></li>
                 </ul>
               </li>
 
