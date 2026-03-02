@@ -19,6 +19,7 @@ import Redux_Store_3 from'./use_selector.png';
 import Redux_Store_4 from './propDrilling_useContext_ReactRedux.png'; 
 import Micro_Frontend_1 from './Micro_Frontend_1.jpeg';
 import Micro_Frontend_2 from './Micro_Frontend_2.png';
+import Jenkins_Pipelines from './Jenkins_1.png';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -41,7 +42,8 @@ const AppImages = {
     Redux_Store_img_3: Redux_Store_3,
     Redux_Store_img_4: Redux_Store_4,
     Micro_Frontend_1_img: Micro_Frontend_1,
-    Micro_Frontend_2_img: Micro_Frontend_2
+    Micro_Frontend_2_img: Micro_Frontend_2,
+    Jenkins_Pipelines_img: Jenkins_Pipelines
 }
 
 export default AppImages;
