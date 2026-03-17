@@ -1,5 +1,4 @@
-import AppImages from "../assets";
-// import DerivedStates from "../Components/DerivedStates";
+import AppImages from "../Assets";
 
 const InterviewSeries_1 = () => {
     return (
@@ -336,30 +335,30 @@ const InterviewSeries_1 = () => {
                                     <b>"react": "^18.2.0"</b>
                                 </p>
 
-                                <p> 
+                                <div> 
                                     Allowed versions:
                                     <ul>
                                         <li>18.2.1</li>
                                         <li>18.5.0</li>
                                         <li>18.9.9</li>
                                     </ul>
-                                </p>
+                                </div>
 
-                                <p>
+                                <div>
                                     Not allowed:
                                     <ul>
                                         <li>19.0.0</li>
                                     </ul>
-                                </p>
+                                </div>
 
-                                <p>
+                                <div>
                                     Rule:
                                    <ul>
                                         <li> ^MAJOR.MINOR.PATCH</li>
                                         <li>→ Can update MINOR and PATCH</li>
                                         <li>→ Cannot update MAJOR</li>
                                    </ul>
-                                </p>
+                                </div>
                             </div>
                         </div>
 

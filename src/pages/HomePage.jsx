@@ -192,6 +192,7 @@ const HomePage = () => {
           </div>
 
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <h5>How to protect the routes</h5>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/mrEqRh9GTlc?si=K5HtvRCnHNAuh2qI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
             https://www.youtube.com/shorts/qa9ufHcRlSU

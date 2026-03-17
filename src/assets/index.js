@@ -20,6 +20,13 @@ import Redux_Store_4 from './propDrilling_useContext_ReactRedux.png';
 import Micro_Frontend_1 from './Micro_Frontend_1.jpeg';
 import Micro_Frontend_2 from './Micro_Frontend_2.png';
 import Jenkins_Pipelines from './Jenkins_1.png';
+import UseEffectWithAsync from './use_effect_with_async.png';
+import SyntheticEvent from './SyntheticEvent.png';
+import Web_Api_JSON_Response from './Web_Api_JSON_Response.jpg';
+import Web_Api_XML_Response from './Web_Api_XML_response.jpg';
+import Server_Side_Rendering from './Server_Side_Rendering.png';
+import Client_Side_Rendering from './Client_Side_Rendering.png';
+import Reconciliation from './reconciliation.jpg';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -43,7 +50,14 @@ const AppImages = {
     Redux_Store_img_4: Redux_Store_4,
     Micro_Frontend_1_img: Micro_Frontend_1,
     Micro_Frontend_2_img: Micro_Frontend_2,
-    Jenkins_Pipelines_img: Jenkins_Pipelines
+    Jenkins_Pipelines_img: Jenkins_Pipelines,
+    UseEffectWithAsync_img: UseEffectWithAsync,
+    SyntheticEvent_img: SyntheticEvent,
+    Web_Api_JSON_Response_img: Web_Api_JSON_Response,
+    Web_Api_XML_response_img: Web_Api_XML_Response,
+    Server_Side_Rendering_img: Server_Side_Rendering,
+    Client_Side_Rendering_img: Client_Side_Rendering,
+    Reconciliation_img: Reconciliation
 }
 
 export default AppImages;
@@ -100,7 +114,6 @@ export default AppImages;
 //     useCount_img_2: require('./useCount_2.png'),
 //     Lazy_Loading_Suspense: require('./Lazy_Loading_1.png'),
 //     PropDrilling_vs_useContext_ReactRedux: require('./propDrilling_useContext_ReactRedux.png'),
-//     ReconciliationImg: require('./reconciliation.jpg'),
 //     Web_Api_JSON_response: require('./Web_Api_JSON_Response.jpg'),
 //     Web_Api_XML_response: require('./Web_Api_XML_Response.jpg'),
 //     Server_Side_Rendering: require('./Server_Side_Rendering.png'),
