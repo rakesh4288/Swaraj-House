@@ -34,6 +34,7 @@ const RowSelectionByCheckbox = ({ mpBoard12thExam }) => {
     return (
         <div className="row">
             <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                <h5>Row Seletion by Checkbox</h5>
                 {studentData && studentData.length > 0 ? (
                     <table className="table table-bordered table-striped">
                         <thead>

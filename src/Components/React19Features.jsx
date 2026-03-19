@@ -29,12 +29,14 @@ const React19Features = () => {
 
                             <h5>Core Performance & Architecture</h5>
                             <h6>
-                                <b> React Compiler:</b>
-                                React Compiler is the replacement of useMemo() and useCallback(), This is helpful for optimizing the component and reducing the unnecessary re-renders.
+                                <b> React Compiler:</b> React Compiler is the replacement of useMemo() and useCallback(), This is a very helpful for optimizing the component and reducing the unnecessary re-renders.
                             </h6>
 
                             <h6>
-                                <b>Activity:</b> In React 19 Activity is best feature I would say, Activity wrapper is used for handling the show & hide feature. This Show and Hide i mean toggling feature we were already doing earlier But Activity wrapper is providing one more thing. It prereserving the state also. So imagine while creating the tabs using Acitvity so your current state will not erase it will be same as it.
+                                <b>Activity:</b> In React 19 Activity is best feature I would say, Activity wrapper is used for handling the show & hide requirements. This Show and Hide i mean toggling feature we were already doing this type of job. 
+                                <p>
+                                    But Activity wrapper is providing one more thing. It prereserving the state also. So imagine while creating the tabs using Acitvity so your current state will not erase it will be same as it.
+                                </p>
                             </h6>
 
                             <hr className="bg-danger" />
@@ -42,18 +44,16 @@ const React19Features = () => {
                             <h5>New Hooks & API</h5>
 
                             <h6>
-                                <b>useTransition:</b>
-                                useTransition() hook is helping to handle the isPending status while calling the API, In React 18 we are handling the isPending status separately But in React 19 useTransition() hook providing the inbuilt method to handle the isPending status.
+                                <b>useTransition:</b> useTransition() hook is helping to handle the isPending status while calling the API, In React 18 we are handling the isPending status separately But in React 19 useTransition() hook providing the inbuilt method to handle the isPending status.
                             </h6>
 
                             <h6>
-                                <b>useOptimistic: </b> useOptimistic() hook is heping to provide the best user experience while communicating with API. When are you handling the API using useOptimistic() hook so this hook directly updating the UI for best user experience and and the same time API calling is running the behind the screens. so once API executed so whatever response is coming now this time response showing at the screen But till time useOptimistic() hook changed the UI.
+                                <b>useOptimistic: </b> useOptimistic() hook is heping to provide the best user experience while handling API. When are you handling the API using useOptimistic() hook so this hook directly updating the UI and the same time API is also running the behind the screens. 
                             </h6>
 
                             <h6>useActionState</h6>
                             <h6>
-                                <b>New API - use():</b>
-                                use() hook is helping to handling the promise based requirement separately. Now earlier we were creating separate custom hook for handling such scenarios now in React 19 use() is providing by itself.
+                                <b>New API - use():</b> use() hook is helping to handling the promise based requirement separately. Now earlier we were creating separate custom hook for handling such scenarios now in React 19 use() is providing by itself.
                             </h6>
                             <h6>useEffectEvent</h6>
                         </div>
@@ -91,7 +91,6 @@ const React19Features = () => {
                             </p>
 
                             <p>For example, you could handle the pending and error state in useState:</p>
-
                         </div>
                     </div>
 
@@ -99,14 +98,14 @@ const React19Features = () => {
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <h6>With using useState</h6>
                             <p>
-                                <img src={AppImages.React_19_UseTransition_1} alt={AppImages.React_19_UseTransition_1} className="img-fluid" />
+                                <img src={AppImages.React_19_UseTransition_1_img} alt={AppImages.React_19_UseTransition_1_img} className="img-fluid" />
                             </p>
                         </div>
 
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <h6>With using useTransition</h6>
                             <p>
-                                <img src={AppImages.React_19_UseTransition_2} alt={AppImages.React_19_UseTransition_2} className="img-fluid" />
+                                <img src={AppImages.React_19_UseTransition_2_img} alt={AppImages.React_19_UseTransition_2_img} className="img-fluid" />
                             </p>
                         </div>
                     </div>
@@ -145,7 +144,7 @@ const React19Features = () => {
                                 </li>
                             </ul>
                             <p>
-                                <img src={AppImages.React_19_UseOptimistic_1} alt={AppImages.React_19_UseOptimistic_1} className="img-fluid" />
+                                <img src={AppImages.React_19_UseOptimistic_1_img} alt={AppImages.React_19_UseOptimistic_1_img} className="img-fluid" />
                             </p>
                         </div>
                     </div>
@@ -168,7 +167,7 @@ const React19Features = () => {
                                 <li> Improves error handling without external state management. </li>
                             </ul>
                             <p>
-                                <img src={AppImages.React_19_UseActionState_1} alt={AppImages.React_19_UseActionState_1} className="img-fluid" />
+                                <img src={AppImages.React_19_UseActionState_1_img} alt={AppImages.React_19_UseActionState_1_img} className="img-fluid" />
                             </p>
                         </div>
                     </div>
@@ -191,7 +190,7 @@ const React19Features = () => {
                                 <li>React 19 lets you use promises, contexts, and async functions directly inside components.</li>
                             </ul>
                             <p>
-                                <img src={AppImages.React_19_Use_Api_1} alt={AppImages.React_19_Use_Api_1} className="img-fluid" />
+                                <img src={AppImages.React_19_Use_Api_1_img} alt={AppImages.React_19_Use_Api_1_img} className="img-fluid" />
                             </p>
                         </div>
 
@@ -210,11 +209,11 @@ const React19Features = () => {
 
                             <h6>With React 18 useMemo </h6>
                             <p>
-                                <img src={AppImages.React18UseMemo} className="img-fluid" alt={AppImages.React18UseMemo} />
+                                <img src={AppImages.React18UseMemo_img} className="img-fluid" alt={AppImages.React18UseMemo_img} />
                             </p>
                             <h6>With React 19 useMemo </h6>
                             <p>
-                                <img src={AppImages.React19UseMemo} className="img-fluid" alt={AppImages.React19UseMemo} />
+                                <img src={AppImages.React19UseMemo_img} className="img-fluid" alt={AppImages.React19UseMemo_img} />
                             </p>
                         </div>
                     </div>
@@ -261,7 +260,7 @@ const React19Features = () => {
                             </ul>
 
                             <p>
-                                <img src={AppImages.React_19_Use_Activity_1} alt={AppImages.React_19_Use_Activity_1} className="img-fluid" />
+                                <img src={AppImages.React_19_Use_Activity_1_img} alt={AppImages.React_19_Use_Activity_1_img} className="img-fluid" />
                             </p>
                         </div>
                     </div>

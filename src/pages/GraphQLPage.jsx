@@ -26,7 +26,7 @@ const GraphQLPage = () => {
                         </h6>
 
                         <h6>
-                            GraphQL is providing the exact data which you need. I mean whatever client is requesting so only that piece of data GraphQL is responding, Hence GraphQL performace is more high and much predictable. Because you know you will not get unnecessary data.
+                            GraphQL is providing the exact data which you need. I mean whatever client is requesting so only that piece of data GraphQL is responding, Hence GraphQL performace is more high and much predictable manner. Because you know you will not get unnecessary data.
                         </h6>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const GraphQLPage = () => {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <h5>Why GraphQL? </h5>
-                        <p>Actually traditional REST APIs have always a problems like this:</p>
+                        <p>Actually in traditional REST APIs we have always a problems like this:</p>
                         <ul>
                             <li>Over-fetching → REST API always providing more data than required</li>
                             <li>Under-fetching → needing multiple API calls for related data</li>

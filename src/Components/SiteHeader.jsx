@@ -90,7 +90,6 @@ const SiteHeader = () => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><Link className="dropdown-item" to="/user-profile">My Profile</Link></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
                   <li>
                     {token && (
                       <span className="dropdown-item" onClick={handleLogout} style={{ cursor: 'pointer' }}>

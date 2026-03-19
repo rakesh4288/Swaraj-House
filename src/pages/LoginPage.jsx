@@ -31,12 +31,12 @@ const LoginPage = () => {
 
     const formValidation = () => {
         let currentErrors = {}
-        if (formValues.userEmail === '') {
-            currentErrors.userEmail = "User Email required !!"
+        if (formValues.email === '') {
+            currentErrors.email = "User Email required !!"
         }
 
-        if (formValues.userPassword === '') {
-            currentErrors.userPassword = "User Password required !!"
+        if (formValues.password === '') {
+            currentErrors.password = "User Password required !!"
         }
 
         setFormErrors(currentErrors);
@@ -89,13 +89,13 @@ const LoginPage = () => {
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1">Email Address</label>
                         <input type="email" className="form-control" id="exampleInputEmail1" name="email" value={formValues.email} aria-describedby="emailHelp" onChange={handleInput} />
-                        {formErrors && (<div className="text-danger"> {formErrors.userEmail} </div>)}
+                        {formErrors && (<div className="text-danger"> {formErrors.email} </div>)}
                     </div>
 
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1">Password</label>
                         <input type="password" className="form-control" id="exampleInputPassword1" name="password" value={formValues.password} onChange={handleInput} />
-                        {formErrors && (<div className="text-danger"> {formErrors.userPassword} </div>)}
+                        {formErrors && (<div className="text-danger"> {formErrors.password} </div>)}
                     </div>
 
                     <div className="d-grid">

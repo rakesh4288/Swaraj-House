@@ -179,7 +179,7 @@ const ReactReduxPage = () => {
                 </div>
             </section>
 
-            <section className="container">
+            <section className="container mb-4 border-bottom pb-4">
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-5 col-sm-12">
                         <CounterAppByRedux initialState={0} />
@@ -187,6 +187,73 @@ const ReactReduxPage = () => {
 
                     <div className="col-xl-6 col-lg-6 col-md-5 col-sm-12">
 
+                    </div>
+                </div>
+            </section>
+
+            <section id="redux-thunk-vs-redux-saga">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className='p-2 bg-dark'>
+                                <h5 className='text-danger mb-0'>
+                                    Redux Thunk vs. Redux Saga: Choosing the Right Middleware <i className="bi bi-activity"></i>
+                                </h5>
+                            </div>
+                            <h6>
+                                Redux is a predictable state management library for the React. This is a mainly used in React application for managing the state globally.
+                            </h6>
+
+                            <h6 className="text-danger">
+                                Redux Thunk and Redux Saga are the middleware libraries in the React applications for handling the side effect such as asynchronous API calls and some complex state transitions and many more. Both are offering the solution for handling a asynchronous operations.
+                            </h6>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="alert alert-info">
+                                <h6><b>Redux Thunk:</b></h6>
+                                <p>
+                                    Redux Thunk is a middleware of React applications which is allow to write the actions creators that returns a functions instead of an action.
+                                </p>
+
+                                <p>
+                                    This function receives the store's dispatch method, which is used to dispatch the regular synchornous actions.
+                                </p>
+
+                                <h6>Features:</h6>
+                                <ul>
+                                    <li>Instead of returning an action object, you return a function</li>
+                                    <li>That function can perform async logic and then dispatch actions</li>
+                                    <li>Simple setup and integration with existing Redux applications.</li>
+                                    <li>This is the Best for simple use cases and smaller applications.</li>
+                                </ul>
+
+                                https://www.youtube.com/shorts/qENY7nn1ek4
+                            </div>
+                        </div>
+
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div className="alert alert-success">
+                                <h6><b>Redux Saga:</b></h6>
+                                <p>
+                                    Redux Saga is also a middleware of the React applications and the main purpose is to make a side effect in the Redux application while dealing with API. This is a easier way to manage and more efficient to execute.
+                                </p>
+
+                                <p>
+                                    It uses the ES6 generators to make asynchronous flow control more readable and easier to debug.
+                                </p>
+
+                                <h6>Features:</h6>
+
+                                <ul>
+                                    <li>This is a more powerful and flexible for complex asynchronous flows.</li>
+                                    <li>Built-in support for cancellation, which can be useful for handling the user interactions like cancellation of ongoing requests.</li>
+                                    <li>Allows for easier testing due to the use of generator functions.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

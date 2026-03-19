@@ -66,7 +66,7 @@ const HomePage = () => {
 
       <section className="container">
         <div className="alert alert-warning">
-          <h6>https://github.com/rakesh4288/Swaraj-House</h6>
+          <h6 className="mb-0">https://github.com/rakesh4288/Swaraj-House</h6>
         </div>
       </section>
 

@@ -27,6 +27,16 @@ import Web_Api_XML_Response from './Web_Api_XML_response.jpg';
 import Server_Side_Rendering from './Server_Side_Rendering.png';
 import Client_Side_Rendering from './Client_Side_Rendering.png';
 import Reconciliation from './reconciliation.jpg';
+import React_19_UseTransition_1 from './React_19_useTransition_1.png';
+import React_19_useTransition_2 from './React_19_useTransition_2.png';
+import React_19_UseOptimistic_1 from './react_19_useOptimistic_1.png';
+import React_19_UseActionState_1 from './react_19_useActionState_1.png';
+import React_19_Use_Api_1 from './react_19_useApi_1.png';
+import React_19_Use_Activity_1 from './react_19_Activity_1.png';
+import React18UseMemo from './react_18_useMemo.png';
+import React19UseMemo from './react_19_useMemo.png';
+import ReactUseMemo_1 from './useMemo_1.png';
+import ReactUseMemo_2 from './useMemo_2.png';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -57,7 +67,17 @@ const AppImages = {
     Web_Api_XML_response_img: Web_Api_XML_Response,
     Server_Side_Rendering_img: Server_Side_Rendering,
     Client_Side_Rendering_img: Client_Side_Rendering,
-    Reconciliation_img: Reconciliation
+    Reconciliation_img: Reconciliation,
+    React_19_UseTransition_1_img: React_19_UseTransition_1,
+    React_19_UseTransition_2_img: React_19_useTransition_2,
+    React_19_UseOptimistic_1_img: React_19_UseOptimistic_1,
+    React_19_UseActionState_1_img: React_19_UseActionState_1,
+    React_19_Use_Api_1_img: React_19_Use_Api_1,
+    React_19_Use_Activity_1_img: React_19_Use_Activity_1,
+    React18UseMemo_img: React18UseMemo,
+    React19UseMemo_img: React19UseMemo,
+    ReactUseMemo_1_img: ReactUseMemo_1,
+    ReactUseMemo_2_img: ReactUseMemo_2
 }
 
 export default AppImages;
@@ -134,17 +154,8 @@ export default AppImages;
 //     MapSliceLimit: require('./map_slice.png'),
 //     ReduxStoreImg: require('./redux_store.png'),
 //     ReduxProviderSteps: require('./redux_provider_confirgure.png'),
-//     React18UseMemo: require('./react_18_useMemo.png'),
-//     React19UseMemo: require('./react_19_useMemo.png'),
-//     React_19_UseTransition_1: require('./React_19_useTransition_1.png'),
-//     React_19_UseTransition_2: require('./React_19_useTransition_2.png'),
-//     React_19_UseOptimistic_1: require('./react_19_useOptimistic_1.png'),
-//     React_19_UseActionState_1: require('./react_19_useActionState_1.png'),
-//     React_19_Use_Api_1: require('./react_19_useApi_1.png'),
-//     React_19_Use_Activity_1: require('./react_19_Activity_1.png'),
+
 //     MonolithicVSMicroFrontArchitecture: require('./Monolithic_Architecture_vs_Micro_Front_End_Architecture.jpeg'),
-//     ReactUseMemo_1: require('./useMemo_1.png'),
-//     ReactUseMemo_2: require('./useMemo_2.png'),
 //     GraphQL_1: require('./Graph_QL_1.png'),
 //     GraphQL_2: require('./Graph_QL_2.png'),
 //     GraphQL_3: require('./Graph_QL_3.png'),
