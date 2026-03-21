@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import AppImages from '../assets';
+import AppImages from '../Assets';
 
 const SiteHeader = () => {
   const swaraj_navigate = useNavigate();
@@ -52,7 +52,7 @@ const SiteHeader = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/react-router-dom">Router Dom</Link>
+                <Link className="nav-link" to="/how-to-configure-react-router-dom">Router Dom</Link>
               </li>
 
               <li className="nav-item">
@@ -68,8 +68,17 @@ const SiteHeader = () => {
                 </ul>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link" to="/javascript-es6-features">ES6 Features</Link>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Utility
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <Link className="dropdown-item" to="/what-is-debouncing-throttling-in-react">
+                      <i className="bi bi-arrow-right"></i> Debouncing & Throttling Concept
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
               <li className="nav-item dropdown">
@@ -77,10 +86,29 @@ const SiteHeader = () => {
                   Interview Pages
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><Link className="dropdown-item" to="/interview-preparation-1">Interviw Page 1</Link></li>
-                  <li><Link className="dropdown-item" to="/interview-preparation-2">Interviw Page 2</Link></li>
-                  <li><Link className="dropdown-item" to="/interview-preparation-3">Interviw Page 3</Link></li>
-                  <li><Link className="dropdown-item" to="/to-do-practice-page">To Do Practice</Link></li>
+                  <li>
+                    <Link className="dropdown-item" to="/interview-preparation-1">
+                      <i className="bi bi-arrow-right"></i> Interview Page 1
+                    </Link>
+                  </li>
+                  
+                  <li>
+                    <Link className="dropdown-item" to="/interview-preparation-2">
+                      <i className="bi bi-arrow-right"></i> Interview Page 2
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link className="dropdown-item" to="/interview-preparation-3">
+                      <i className="bi bi-arrow-right"></i> Interview Page 3
+                    </Link>
+                  </li>
+
+                  <li>
+                      <Link className="dropdown-item" to="/to-do-practice-page">
+                        <i className="bi bi-arrow-right"></i> To Do Practice
+                      </Link>
+                    </li>
                 </ul>
               </li>
 

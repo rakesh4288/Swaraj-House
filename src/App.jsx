@@ -19,6 +19,8 @@ import UseReducerHookPage from "./pages/UseReducerHookPage";
 import JenkinsPage from "./pages/JenkinsPage";
 import InterviewSeries_2 from "./pages/InterviewSeries_2";
 import InterviewSeries_3 from "./pages/InterviewSeries_3";
+import DebouncingPage from "./pages/DebouncingPage";
+import ReactRoutingPage from "./pages/ReactRoutingPage";
 
 function App() {
   return (
@@ -33,9 +35,11 @@ function App() {
                 <Route path="/user-profile" element={<UserProfile />} />
                 <Route path="/react-19-features" element={<React19Features />} />
                 <Route path="/to-do-practice-page" element={<ToDoPracticePage />} />
+                <Route path="/what-is-debouncing-throttling-in-react" element={<DebouncingPage />}/>
                 <Route path="/interview-preparation-1" element={<InterviewSeries_1 />} />
                 <Route path="/interview-preparation-2" element={<InterviewSeries_2 />} />
                 <Route path="/interview-preparation-3" element={<InterviewSeries_3 />} />
+                <Route path="/how-to-configure-react-router-dom" element={<ReactRoutingPage />}/>
                 <Route path="/api-integration-in-react" element={<ApiIntegrationPage />} />
                 <Route path="/http-get-method-in-react" element={<HttpGetPage />}/>
                 <Route path="/react-redux-tutorial" element={<ReactReduxPage />}/>

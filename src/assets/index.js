@@ -37,6 +37,13 @@ import React18UseMemo from './react_18_useMemo.png';
 import React19UseMemo from './react_19_useMemo.png';
 import ReactUseMemo_1 from './useMemo_1.png';
 import ReactUseMemo_2 from './useMemo_2.png';
+import RouterPackages from './router_packages.png';
+import RouterIndexWrap from './router_index_wrapping.jpg';
+import RouterAppImports from './router_app.png';
+import RouterAppConfigure from './router_app_configure.png';
+import Debouncing_1 from './debouncing_1.png';
+import Debouncing_2 from './debouncing_2.png';
+import PostOfficeImg from './PostOfficeImg.jpg';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -77,16 +84,21 @@ const AppImages = {
     React18UseMemo_img: React18UseMemo,
     React19UseMemo_img: React19UseMemo,
     ReactUseMemo_1_img: ReactUseMemo_1,
-    ReactUseMemo_2_img: ReactUseMemo_2
+    ReactUseMemo_2_img: ReactUseMemo_2,
+    RouterPackages_img: RouterPackages,
+    RouterIndexWrap_img: RouterIndexWrap,
+    RouterAppImports_img: RouterAppImports,
+    RouterAppConfigure_img: RouterAppConfigure,
+    Debouncing_1_img: Debouncing_1,
+    Debouncing_2_img: Debouncing_2,
+    PostOffice_Img: PostOfficeImg
 }
-
 export default AppImages;
 
 
 // const AppImages = {
 //     AppLogo: require('./logo.svg'),
 //     PageNotFound: require('./PageNotFoundImg.jpg'),
-//     RouterPackages: require('./router_packages.png'),
 //     RouterIndexWrap: require('./router_index_wrapping.jpg'),
 //     RouterAppImports: require('./router_app.png'),
 //     RouterAppConfigure: require('./router_app_configure.png'),
@@ -126,9 +138,6 @@ export default AppImages;
 //     React_Fragment_2: require('./react_fragment_2.png'),
 //     React_Fragment_3: require('./react_fragment_3.png'),
 //     SyntheticEventImg: require('./SyntheticEvent.png'),
-//     Debouncing_Img_1: require('./debouncing_1.png'),
-//     Debouncing_Img_2: require('./debouncing_2.png'),
-//     PostOfficeImg: require('./PostOfficeImg.jpg'),
 //     useSelectorImg: require('./use_selector.png'),
 //     useCount_img_1: require('./useCount_1.png'),
 //     useCount_img_2: require('./useCount_2.png'),
@@ -160,8 +169,6 @@ export default AppImages;
 //     GraphQL_2: require('./Graph_QL_2.png'),
 //     GraphQL_3: require('./Graph_QL_3.png'),
 //     GraphQL_4: require('./Graph_QL_4.png'),
-//     Jenkins_1: require('./Jenkins_1.png'),
-//     React_18_to_19: require('./React_18_to_19.png')
 // }
 
 // export default AppImages;

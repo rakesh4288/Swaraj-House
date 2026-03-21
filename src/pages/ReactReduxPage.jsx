@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import ReduxConfiguration from '../components/ReduxConfiguration';
-import AppImages from '../assets';
+import AppImages from '../Assets';
 import CounterAppByRedux from '../components/CounterAppByRedux';
 
 const ReactReduxPage = () => {

@@ -120,7 +120,7 @@ const HomePage = () => {
                   <div className="card h-100 shadow-sm">
                     <div className="card-body">
                       <h6 className="card-title">
-                        <Link to="/what-is-debouncing-and-throttling" className="text-decoration-none">Debouncing & Throttling</Link>
+                        <Link to="/what-is-debouncing-throttling-in-react" className="text-decoration-none">Debouncing & Throttling </Link>
                       </h6>
                       <p className="card-text">Optimize event handling with setTimeout (debouncing) and setInterval (throttling).</p>
                     </div>
