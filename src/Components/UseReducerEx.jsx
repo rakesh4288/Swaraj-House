@@ -12,9 +12,7 @@ const UseReducerEx = () => {
                     count: state.count - 1
                 }
             case 'reset':
-                return {
-                    count: 0
-                }
+                return { count: 0 }
             default :
                 return {count: 0}
         }

@@ -44,6 +44,9 @@ import RouterAppConfigure from './router_app_configure.png';
 import Debouncing_1 from './debouncing_1.png';
 import Debouncing_2 from './debouncing_2.png';
 import PostOfficeImg from './PostOfficeImg.jpg';
+import Lazy_Loading_Suspense from './Lazy_Loading_1.png';
+import DonaPaulaBeach from './dona-paula-beach.jpg';
+import MeenakshiTemple from './Meenakshi_Temple.jpg';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -91,7 +94,10 @@ const AppImages = {
     RouterAppConfigure_img: RouterAppConfigure,
     Debouncing_1_img: Debouncing_1,
     Debouncing_2_img: Debouncing_2,
-    PostOffice_Img: PostOfficeImg
+    PostOffice_Img: PostOfficeImg,
+    Lazy_Loading_Suspense_img: Lazy_Loading_Suspense,
+    DonaPaulaBeach_img: DonaPaulaBeach,
+    MeenakshiTemple_img:  MeenakshiTemple
 }
 export default AppImages;
 
@@ -121,8 +127,6 @@ export default AppImages;
 //     StateVsProps: require('./state_vs_props.png'),
 //     StatePropsCamparison: require('./state_vs_props_camparison_table.jpg'),
 //     UseStateHookImg: require('./use_state_hook_1.png'),
-//     DonaPaulaBeach: require('./dona-paula-beach.jpg'),
-//     MeenakshiTemple: require('./Meenakshi_Temple.jpg'),
 //     virtualDom_1: require('./virtual_dom_1.png'),
 //     LifeCycleMethodImg: require('./life_cycle_methods.png'),
 //     HooksLifeCycleMethod: require('./hooks_life_cycle.png'),
@@ -141,7 +145,6 @@ export default AppImages;
 //     useSelectorImg: require('./use_selector.png'),
 //     useCount_img_1: require('./useCount_1.png'),
 //     useCount_img_2: require('./useCount_2.png'),
-//     Lazy_Loading_Suspense: require('./Lazy_Loading_1.png'),
 //     PropDrilling_vs_useContext_ReactRedux: require('./propDrilling_useContext_ReactRedux.png'),
 //     Web_Api_JSON_response: require('./Web_Api_JSON_Response.jpg'),
 //     Web_Api_XML_response: require('./Web_Api_XML_Response.jpg'),

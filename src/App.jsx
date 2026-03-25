@@ -21,6 +21,7 @@ import InterviewSeries_2 from "./pages/InterviewSeries_2";
 import InterviewSeries_3 from "./pages/InterviewSeries_3";
 import DebouncingPage from "./pages/DebouncingPage";
 import ReactRoutingPage from "./pages/ReactRoutingPage";
+import LazyLoadingPage from "./pages/LazyLoadingPage";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/user-profile" element={<UserProfile />} />
                 <Route path="/react-19-features" element={<React19Features />} />
                 <Route path="/to-do-practice-page" element={<ToDoPracticePage />} />
+                <Route path="/what-is-lazy-loading-in-react" element={<LazyLoadingPage />}/>
                 <Route path="/what-is-debouncing-throttling-in-react" element={<DebouncingPage />}/>
                 <Route path="/interview-preparation-1" element={<InterviewSeries_1 />} />
                 <Route path="/interview-preparation-2" element={<InterviewSeries_2 />} />

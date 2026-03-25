@@ -23,6 +23,12 @@ const HomePage = () => {
         </div>
       </section>
 
+      <section className="container">
+        <div className="alert alert-warning">
+          <h6 className="mb-0"> Git Repo: https://github.com/rakesh4288/Swaraj-House</h6>
+        </div>
+      </section>
+
       <section id="quick-learning" className="container mt-4 mb-5">
         <h3 className="text-center mb-5">Quick Learning Modules</h3>
         <div className="row">
@@ -64,18 +70,144 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="container">
-        <div className="alert alert-warning">
-          <h6 className="mb-0">https://github.com/rakesh4288/Swaraj-House</h6>
+      <section id="react-js-protection" className="container">
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <h5>What is the best  way to secure and protect our react application ?</h5>
+            <ul>
+              <li>Never trust the user input, always santize the user data to <b>Prevent Cross-Site Scripting (XSS) Attacks</b></li>
+              <li>Https vs http: Always prefer the <b>https</b> instead of <b>http</b>, <b>https</b> is more secure than <b>http</b></li>
+              <li>
+                Update the Dependencies: Regularly check for and update outdated packages using tools like <b>npm-check-updates</b> to patch vulnerabilities.
+              </li>
+              <li>
+                Implement CORS: Properly configure the Cross-Origin Resource Sharing (CORS) on your server to allow only authorized domains to access your API.
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/GW3M30Ms1Kg?si=rG46JwcMtFmRoa_5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <hr className="bg-primary" />
+
+
+      <section id="vulnerabilities-in-react" className="pt-4 mb-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <h4>What are the vulnerabilities in Node.js?</h4>
+              <p>
+                In Node.js, vulnerabilities are the security weaknesses in your application
+              </p>
+
+              <p>
+                Vulnerabilities in Node.js projects often arise from its large, open-source ecosystem, asynchronous nature, and server-side access to the system resources. Key threats include insecure third-party dependencies, injection attacks, cross-site scripting (XSS), broken authentication, and inadequate error handling that exposes system data
+              </p>
+
+              <ul>
+                <li>Run unauthorized code</li>
+                <li>Steal data</li>
+                <li>Crash the app</li>
+                <li>Cross Site Scripting Attacks</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <h6>Common types of Vulnerabilities in Node.js</h6>
+              <table className="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Description</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Prototype Pollution</td>
+                    <td>Attacker manipulates JS object prototypes</td>
+                  </tr>
+
+                  <tr>
+                    <td>Denial of Service (DoS)</td>
+                    <td>Resource exhaustion crashes the app</td>
+                  </tr>
+
+                  <tr>
+                    <td>Insecure Dependencies</td>
+                    <td>A package has known security bugs</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <h5>Best practices to avoid Vulnerabilities</h5>
+
+              <table className="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Best Practice</th>
+                    <th>Why It Helps</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Keep all the dependencies is up to date</td>
+                    <td>Because it helps to Fixes the known issues</td>
+                  </tr>
+
+                  <tr>
+                    <td>Avoid eval(), exec(), and Function()</td>
+                    <td>Because it helps to Prevents code injection</td>
+                  </tr>
+
+                  <tr>
+                    <td>Validate and sanitize the all user input</td>
+                    <td>Because it helps to Stops injection, XSS, etc.</td>
+                  </tr>
+
+                  <tr>
+                    <td>Use environment variables for secrets</td>
+                    <td>Because it helps to Keeps credentials safe</td>
+                  </tr>
+
+                  <tr>
+                    <td>Implement proper error handling</td>
+                    <td>Because it helps to Avoids info leaks</td>
+                  </tr>
+
+                  <tr>
+                    <td>Use https rather than http</td>
+                    <td>Because it helps to Encrypts data in transit</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <h6>How to Resolve Vulnerabilities when "npm audit fix" does not work</h6>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/VAHkHj3I6Wg?si=dEoLFRWJzvoIGbrq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="how-to-optimize-react">
         <div className="container">
           <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
               <h5>How to optimize the React App ?  Best Learning Video !!</h5>
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/CaShN6mCJB0?si=dGgjn5ixlUfyqxyK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/CaShN6mCJB0?si=dGgjn5ixlUfyqxyK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
 
@@ -163,15 +295,6 @@ const HomePage = () => {
                     <div className="card-body">
                       <h6 className="card-title">ESLint for Better Coding</h6>
                       <p className="card-text">Use ESLint to maintain code quality and consistency.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6">
-                  <div className="card h-100 shadow-sm">
-                    <div className="card-body">
-                      <h6 className="card-title">Avoid Inline Styles & Events</h6>
-                      <p className="card-text">Keep styles and events separate for better maintainability.</p>
                     </div>
                   </div>
                 </div>
