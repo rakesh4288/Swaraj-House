@@ -7,7 +7,7 @@ const InterviewSeries_3 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h4 className="pageHeading"> 
+                            <h4 className="pageHeading">
                                 React Interview Questions Answer Part 3 <i className="bi bi-fullscreen"></i>
                             </h4>
                         </div>
@@ -30,8 +30,17 @@ const InterviewSeries_3 = () => {
                         </div>
 
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <h6>Best Interview Questions Answers:</h6>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/xV1BK3ZYxuA?si=GGuDhPrFn1DEdc3X" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                            <h6>What should be the execution order:</h6>
+                            <p>
+                                <img src={AppImages.Hooks_Execution_Steps_img} alt={AppImages.Hooks_Execution_Steps_img} className='img-fluid'/>
+                            </p>
+
+                            <p>
+                                1 - useMemo <br/>
+                                2 - Rendering JSX <br/>
+                                3 - useEffect <br/>
+                                useCallback - until unless we not calling it will not be call itself
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +52,7 @@ const InterviewSeries_3 = () => {
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <h4 className="text-white">What are synthetic events in ReactJS ?</h4>
                             <p className="text-white">
-                                Synthetic events are the cross-browser wrappers around all the browsers. The main purpose of creating the synthetic event is to perform the cross browser issues. 
+                                Synthetic events are the cross-browser wrappers around all the browsers. The main purpose of creating the synthetic event is to perform the cross browser issues.
                             </p>
 
                             <p className="text-white">
@@ -69,7 +78,7 @@ const InterviewSeries_3 = () => {
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <h4>What is the content negotiation in web api ?</h4>
                         <p>
-                            Content negotiation is the best format for getting the response from the server. When a client is requesting the data from the server so server offers few options to send the data like JSON format or XML format. 
+                            Content negotiation is the best format for getting the response from the server. When a client is requesting the data from the server so server offers few options to send the data like JSON format or XML format.
                         </p>
                     </div>
                 </div>
@@ -79,56 +88,56 @@ const InterviewSeries_3 = () => {
                         <h5>More detailed explanation:</h5>
                         <h6>The Problem:</h6>
                         <ul>
-                        <li>
-                            Web APIs often need to serve the data to the different clients, which may have varying preferences (e.g., some clients might prefer JSON, while others prefer XML).
-                        </li>
+                            <li>
+                                Web APIs often need to serve the data to the different clients, which may have varying preferences (e.g., some clients might prefer JSON, while others prefer XML).
+                            </li>
 
-                        <li>
-                            It's crucial to deliver the data in a format that each client can efficiently process and understand. 
-                        </li>
+                            <li>
+                                It's crucial to deliver the data in a format that each client can efficiently process and understand.
+                            </li>
                         </ul>
 
                         <h5>The Solution: Content Negotiation:</h5>
                         <ul>
-                        <li>Clients send an HTTP request including headers like Accept to specify their preferred media types.</li>
-                        <li>The server uses this information to select the most appropriate representation of the data to return.</li>
-                        <li>If the server can fulfill the client's request, it returns the data in the specified format.</li>
-                        <li>If no acceptable format is available, the server might return a 406 Not Acceptable error or a response in a default format. </li>
+                            <li>Clients send an HTTP request including headers like Accept to specify their preferred media types.</li>
+                            <li>The server uses this information to select the most appropriate representation of the data to return.</li>
+                            <li>If the server can fulfill the client's request, it returns the data in the specified format.</li>
+                            <li>If no acceptable format is available, the server might return a 406 Not Acceptable error or a response in a default format. </li>
                         </ul>
 
                         <h5>Example:</h5>
                         <ul>
-                        <li>A client sends a request with Accept: application/json. </li>
-                        <li>The server, if it can generate JSON, sends back the data in JSON format. </li>
-                        <li>If the client sends Accept: application/xml and the server can generate XML, it sends the data in XML format. </li>
+                            <li>A client sends a request with Accept: application/json. </li>
+                            <li>The server, if it can generate JSON, sends back the data in JSON format. </li>
+                            <li>If the client sends Accept: application/xml and the server can generate XML, it sends the data in XML format. </li>
                         </ul>
 
                         <p>
-                        In essence, content negotiation enables APIs to provide data in a variety of formats, making them more versatile and accommodating to different client applications. 
+                            In essence, content negotiation enables APIs to provide data in a variety of formats, making them more versatile and accommodating to different client applications.
                         </p>
                     </div>
 
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div className="alert alert-info">
-                        <h6>Content-Type: application/json</h6>
-                        <p>
-                        <img src={AppImages.Web_Api_JSON_Response_img} alt="Web API JSON" className="img-fluid img-thumbnail" />
-                        </p>
+                        <div className="alert alert-info">
+                            <h6>Content-Type: application/json</h6>
+                            <p>
+                                <img src={AppImages.Web_Api_JSON_Response_img} alt="Web API JSON" className="img-fluid img-thumbnail" />
+                            </p>
 
-                        <hr className="bg-dark"/>
+                            <hr className="bg-dark" />
 
-                        <h6>Content-Type: application/xml</h6>
-                        <p>
-                        <img src={AppImages.Web_Api_XML_response_img} alt="Web API XML" className="img-fluid img-thumbnail" />
-                        </p>
-                    </div>
+                            <h6>Content-Type: application/xml</h6>
+                            <p>
+                                <img src={AppImages.Web_Api_XML_response_img} alt="Web API XML" className="img-fluid img-thumbnail" />
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <hr className="bg-dark"/>
+            <hr className="bg-dark" />
 
-            <section id="react--reconciliation" className="pt-4 pb-5">  
+            <section id="react--reconciliation" className="pt-4 pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -157,9 +166,9 @@ const InterviewSeries_3 = () => {
                 </div>
             </section>
 
-            <hr className="bg-danger"/>
+            <hr className="bg-danger" />
 
-            <section id="ssr-csr" className="pt-4 pb-5">  
+            <section id="ssr-csr" className="pt-4 pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -199,19 +208,19 @@ const InterviewSeries_3 = () => {
                         </div>
 
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <p>
+                            <p>
                                 <img src={AppImages.Server_Side_Rendering_img} alt="Server Side Rendering" className="img-fluid" />
-                           </p>
+                            </p>
                         </div>
                     </div>
 
-                    <hr className="bg-primary"/>
+                    <hr className="bg-primary" />
 
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <p>
+                            <p>
                                 <img src={AppImages.Client_Side_Rendering_img} alt="Client Side Rendering" className="img-fluid" />
-                           </p>
+                            </p>
                         </div>
 
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -242,7 +251,7 @@ const InterviewSeries_3 = () => {
                 </div>
             </section>
 
-            <hr className="bg-danger"/>
+            <hr className="bg-danger" />
         </div>
     )
 }

@@ -10,7 +10,7 @@
 import { Navigate, Outlet, useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
-const IDLE_TIME = 5 * 60 * 1000; // 2 minutes
+const IDLE_TIME = 5 * 60 * 1000; // 5 minutes
 
 const ProtectedRoutes = () => {
   const navigate = useNavigate();

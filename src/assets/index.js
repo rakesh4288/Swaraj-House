@@ -47,6 +47,13 @@ import PostOfficeImg from './PostOfficeImg.jpg';
 import Lazy_Loading_Suspense from './Lazy_Loading_1.png';
 import DonaPaulaBeach from './dona-paula-beach.jpg';
 import MeenakshiTemple from './Meenakshi_Temple.jpg';
+import Hooks_Execution_Steps from './hooks_execution_steps.png';
+import SyntheticEvent_1 from './SyntheticEvent.png';
+import React_Strict_Mode from './React_Strict_Mode.png';
+import UseContext1 from './use_context_hook_1.png';
+import UseContext2 from './use_context_hook_2.png';
+import UseContext3 from './use_context_hook_3.png';
+import UseContext4 from './use_context_hook_4.png';
 
 const AppImages = {
     React_Logo: react_logo,
@@ -97,7 +104,14 @@ const AppImages = {
     PostOffice_Img: PostOfficeImg,
     Lazy_Loading_Suspense_img: Lazy_Loading_Suspense,
     DonaPaulaBeach_img: DonaPaulaBeach,
-    MeenakshiTemple_img:  MeenakshiTemple
+    MeenakshiTemple_img:  MeenakshiTemple,
+    Hooks_Execution_Steps_img: Hooks_Execution_Steps,
+    SyntheticEvent_img_1: SyntheticEvent_1,
+    React_Strict_Mode_img: React_Strict_Mode,
+    UseContext_1_img: UseContext1,
+    UseContext_2_img: UseContext2,
+    UseContext_3_img: UseContext3,
+    UseContext_4_img: UseContext4,
 }
 export default AppImages;
 
@@ -131,9 +145,6 @@ export default AppImages;
 //     LifeCycleMethodImg: require('./life_cycle_methods.png'),
 //     HooksLifeCycleMethod: require('./hooks_life_cycle.png'),
 //     ComputerParts: require('./computer-parts.png'),
-//     UseContextImg: require('./use_context_hook_1.png'),
-//     UseContextImg5: require('./use_context_hook_5.png'),
-//     UseContextImg6: require('./use_context_hook_6.png'),
 //     WhatIsJSX: require('./what_is_JSX.png'),
 //     UseEffectWithAsync: require('./use_effect_with_async.png'),
 //     ReactJsAdvantages: require('./react_js_advantages.png'),
@@ -141,7 +152,6 @@ export default AppImages;
 //     React_Fragment_1: require('./react_fragment_1.png'),
 //     React_Fragment_2: require('./react_fragment_2.png'),
 //     React_Fragment_3: require('./react_fragment_3.png'),
-//     SyntheticEventImg: require('./SyntheticEvent.png'),
 //     useSelectorImg: require('./use_selector.png'),
 //     useCount_img_1: require('./useCount_1.png'),
 //     useCount_img_2: require('./useCount_2.png'),
@@ -150,7 +160,6 @@ export default AppImages;
 //     Web_Api_XML_response: require('./Web_Api_XML_Response.jpg'),
 //     Server_Side_Rendering: require('./Server_Side_Rendering.png'),
 //     Client_Side_Rendering: require('./Client_Side_Rendering.png'),
-//     React_Strict_Mode: require('./React_Strict_Mode.png'),
 //     DerivedStatesImg_1: require('./Derived_States_1.png'),
 //     DerivedStatesImg_2: require('./Derived_States_2.png'),
 //     Props_Design_1: require('./props_design_1.png'),
@@ -164,14 +173,6 @@ export default AppImages;
 //     EventDelegation_2: require('./event_delegation_2.png'),
 //     EventDelegation_3: require('./event_delegation_3.png'),
 //     MapSliceLimit: require('./map_slice.png'),
-//     ReduxStoreImg: require('./redux_store.png'),
-//     ReduxProviderSteps: require('./redux_provider_confirgure.png'),
-
-//     MonolithicVSMicroFrontArchitecture: require('./Monolithic_Architecture_vs_Micro_Front_End_Architecture.jpeg'),
-//     GraphQL_1: require('./Graph_QL_1.png'),
-//     GraphQL_2: require('./Graph_QL_2.png'),
-//     GraphQL_3: require('./Graph_QL_3.png'),
-//     GraphQL_4: require('./Graph_QL_4.png'),
 // }
 
 // export default AppImages;

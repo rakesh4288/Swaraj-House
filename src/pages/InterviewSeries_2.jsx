@@ -215,7 +215,7 @@ const InterviewSeries_2 = () => {
                                 </p>
 
                                 <p>
-                                    <img src={AppImages.SyntheticEventImg} alt="SyntheticEventImg" className="img-fluid" />
+                                    <img src={AppImages.SyntheticEvent_img_1} alt="SyntheticEventImg" className="img-fluid" />
                                 </p>
 
                                 <p className="text-white">
@@ -256,7 +256,7 @@ const InterviewSeries_2 = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <h6>Full Component Screenshot:</h6>
                         <p>
-                            <img src={AppImages.React_Strict_Mode} alt="React_Strict_Mode"
+                            <img src={AppImages.React_Strict_Mode_img} alt="React_Strict_Mode"
                             className="img-fluid img-thumbnail" />
                         </p>
                     </div>

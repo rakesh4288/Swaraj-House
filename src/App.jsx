@@ -15,13 +15,14 @@ import HttpGetPage from "./pages/HttpGetPage";
 import ReactReduxPage from "./pages/ReactReduxPage";
 import MircoFrontEndPage from "./pages/MircoFrontEndPage";
 import ReactFormsPage from "./pages/ReactFormsPage";
-import UseReducerHookPage from "./pages/UseReducerHookPage";
+import UseReducerPage from "./pages/UseReducerPage";
 import JenkinsPage from "./pages/JenkinsPage";
 import InterviewSeries_2 from "./pages/InterviewSeries_2";
 import InterviewSeries_3 from "./pages/InterviewSeries_3";
 import DebouncingPage from "./pages/DebouncingPage";
 import ReactRoutingPage from "./pages/ReactRoutingPage";
 import LazyLoadingPage from "./pages/LazyLoadingPage";
+import UseContextPage from "./pages/UseContextPage";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
                 <Route path="/react-redux-tutorial" element={<ReactReduxPage />}/>
                 <Route path="/what-is-micro-front-end-architecture-in-react" element={<MircoFrontEndPage />}/>
                 <Route path="/react-forms" element={<ReactFormsPage />} />
-                <Route path="/use-reducer-hook" element={<UseReducerHookPage />}/>
+                <Route path="/what-is-use-reducer-hook" element={<UseReducerPage />}/>
+                <Route path="/what-is-use-context-hook" element={<UseContextPage />}/>
                 <Route path="/learning-ci-cd-pipelines-with-jenkins" element={<JenkinsPage />}/>
               </Route>
 

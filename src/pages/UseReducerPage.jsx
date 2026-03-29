@@ -1,6 +1,6 @@
 import UseReducerEx from "../components/UseReducerEx";
 
-const UseReducerHookPage = () => {
+const UseReducerPage = () => {
     return (
         <div id="use-reducer-hook-page">
             <section className="pageHeader">
@@ -87,4 +87,4 @@ const UseReducerHookPage = () => {
     )
 }
 
-export default UseReducerHookPage;
+export default UseReducerPage;
